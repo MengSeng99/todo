@@ -1,6 +1,6 @@
 # Todo Application
 
-A modern, full-stack Todo application built with React, TypeScript, and .NET 6. This application allows users to manage their tasks with features like task creation, completion tracking, due dates, and notes.
+A modern, full-stack Todo application built with React, TypeScript, and .NET 9. This application allows users to manage their tasks with features like task creation, completion tracking, due dates, and notes.
 
 ## Features
 
@@ -23,7 +23,7 @@ A modern, full-stack Todo application built with React, TypeScript, and .NET 6. 
 - React Router for navigation
 
 ### Backend
-- .NET 6
+- .NET 9
 - Entity Framework Core
 - SQLite Database
 - Swagger for API documentation
@@ -53,7 +53,7 @@ todo-app/
 ### Prerequisites
 
 - Node.js (v14 or higher)
-- .NET 6 SDK
+- .NET 9 SDK
 - Visual Studio 2022 or VS Code
 
 ### Backend Setup
