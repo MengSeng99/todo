@@ -1,17 +1,14 @@
 # Todo Application
 
-A modern, full-stack Todo application built with React, TypeScript, and .NET 9. This application allows users to manage their tasks with features like task creation, completion tracking, due dates, and notes.
+A Todo application built with React, TypeScript, and .NET 9. This application allows users to manage their tasks with features like task creation, completion tracking, due dates, and notes.
 
 ## Features
 
-- 🎯 Create, edit, and delete tasks
-- ✅ Mark tasks as complete/incomplete
-- 📅 Set due dates for tasks
-- 📝 Add notes to tasks
-- 🎨 Modern, responsive UI with dark theme
-- 🔄 Real-time updates
-- 🔒 Secure API endpoints
-- 🧪 Unit tests for backend services
+- Create, edit, and delete tasks (CRUD)
+- Mark tasks as complete/incomplete
+- Add notes to tasks
+- Real-time updates
+- Unit tests for backend services
 
 ## Tech Stack
 
@@ -75,7 +72,6 @@ todo-app/
 
 4. Access Swagger documentation:
    - HTTP: http://localhost:5066/swagger
-   - HTTPS: https://localhost:7065/swagger
 
 ### Frontend Setup
 
@@ -132,19 +128,3 @@ The API provides the following endpoints:
 - `POST /api/todoitems` - Create a new todo item
 - `PUT /api/todoitems/{id}` - Update an existing todo item
 - `DELETE /api/todoitems/{id}` - Delete a todo item
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-If you encounter any issues or have questions, please open an issue in the repository. 
